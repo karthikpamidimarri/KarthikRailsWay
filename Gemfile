@@ -40,7 +40,13 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-
+  gem 'therubyracer'
+  gem 'devise'
+  gem 'omniauth'
+  gem 'omniauth-facebook'
+  gem "bootstrap-sass-rails"
+  gem "omniauth-google-oauth2"
+  gem "omniauth-twitter"
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
