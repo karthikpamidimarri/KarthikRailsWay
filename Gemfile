@@ -44,7 +44,6 @@ group :development do
   gem 'devise'
   gem 'omniauth'
   gem 'omniauth-facebook'
-  gem "bootstrap-sass-rails"
   gem "omniauth-google-oauth2"
   gem "omniauth-twitter"
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
